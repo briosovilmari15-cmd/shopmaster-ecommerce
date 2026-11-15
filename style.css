@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    color: #343A40;
+    background-color: #FFFFFF;
+    padding-top: 70px;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #007BFF, #0056b3);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.product-img-container {
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.product-img-container img {
+    max-height: 100%;
+    object-fit: contain;
+}
